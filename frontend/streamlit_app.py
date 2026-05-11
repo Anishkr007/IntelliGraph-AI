@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "http://127.0.0.1:8000"
 
 st.markdown("""
 <style>
@@ -467,6 +467,10 @@ st.markdown("---")
 st.markdown(
     '<p style="text-align:center;color:#334155;font-size:0.78rem">'
     'AI Research Assistant &nbsp;·&nbsp; LangGraph + Groq &nbsp;·&nbsp; B.Tech Final Year Project'
+    '</p>'
+    '<p style="text-align:center;font-size:0.85rem;margin-top:6px;">'
+    '<span style="background:linear-gradient(135deg,#818cf8,#38bdf8);-webkit-background-clip:text;'
+    '-webkit-text-fill-color:transparent;font-weight:700;">Built by Anish</span> 🚀'
     '</p>',
     unsafe_allow_html=True,
 )
